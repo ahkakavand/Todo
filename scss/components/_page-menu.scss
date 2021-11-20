@@ -1,0 +1,26 @@
+.page-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.page-item .pageBtnMenu {
+    color: $blue-300;
+    text-decoration: none;
+    padding:5px 10px;
+    @include transition;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid $blue-00;
+    @include borderRaduse(3px);
+}
+
+.page-item .pageBtnMenu:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.page-item .pageBtnMenu:active {
+    background: $blue-300;
+    color: $white;
+}

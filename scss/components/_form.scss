@@ -1,0 +1,65 @@
+.main-form {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    background: $white;
+    padding: 10px;
+    @include borderRaduse(5px);
+}
+
+.text-input {
+    width: 580px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    background: $white;
+    @include borderRaduse()
+}
+
+.text-input::placeholder {
+    color: $gray-100;
+}
+
+.submit-btn {
+    color: $white;
+    padding: 5px 15px;
+    border: none;
+    background: $blue-300;
+    color: $white;
+    @include borderRaduse();
+    cursor: pointer;
+    @include transition();
+}
+
+.submit-btn:hover {
+    background: $blue-200;
+}
+
+hr {
+    background: $gray-100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    height: 2px;
+}
+
+.edit-btn {
+    padding: 10px 15px 0px 15px ;
+    border: none;
+    background: $blue-300;
+    color: $white;
+    @include borderRaduse();
+    cursor: pointer;
+    @include transition();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: none;
+    color: $white;
+    font-size: 14px;
+}
+
+.edit-btn:hover {
+    background: $blue-200;
+}

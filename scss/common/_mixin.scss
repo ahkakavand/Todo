@@ -1,0 +1,7 @@
+@mixin borderRaduse($size:3px) {
+    border-radius:$size ;
+} 
+
+@mixin transition($time:0.3s) {
+    transition: all ease $time ;
+} 

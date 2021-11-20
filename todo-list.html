@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css"
+        integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Title</title>
+</head>
+
+<body>
+    <main id="main-mb">
+        <ul class="nav-menu-mb">
+            <li class="nav-item-mb"><a href="index.html">Home</a></li>
+            <li class="nav-item-mb"><a href="todo-list.html">Todo List</a></li>
+        </ul>
+    </main>
+    <main>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="todo-list.html">Todo List</a></li>
+            </ul>
+        </nav>
+        <h1><i class="fas fa-check-square"></i>My ToDo-S</h1>
+        <hr>
+        <ul class="main-todo"></ul>
+    </main>
+    <main id="main-page-number">
+    </main>
+    <div id="snackbar2" class="toast">Information Deleted !</div>
+    
+    <div id="modalDelte">
+        <h1>Delet Todo ?</h1>
+        <span class="info-modal" id="titleModal"></span>
+        <span class="info-modal" id="dateModal">doedate : 02/10/2020</span>
+        <span class="info-modal" id="decModal">description : Lorem ipsum dolor sit amet.</span>
+        <div class="btnBox">
+            <button class="noBox">no</button>
+            <button class="yesBox">yes</button>
+        </div>
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <script src='./js/main2.js'></script>
+</body>
+
+</html>

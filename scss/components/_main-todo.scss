@@ -1,0 +1,59 @@
+.main-todo {
+    list-style: none;
+}
+
+.main-item {
+    padding: 20px 10px;
+    margin: 10px 0;
+    border-bottom: 2px solid $gray-100;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    color: $gray-200;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: $gray-200;
+}
+
+.fa-pencil-alt {
+    color: $red-200;
+    cursor: pointer;
+    @include transition();
+}
+
+.fa-pencil-alt:hover {
+    color: $red-100;
+}
+
+.fa-trash-alt {
+    color: $blue-300;
+    margin-left: 20px;
+    cursor: pointer;
+    @include transition();
+}
+
+.fa-trash-alt:hover {
+    color: $blue-200;
+}
+
+.checkTest {
+    text-decoration: line-through;
+    color: $gray-100;
+}
+
